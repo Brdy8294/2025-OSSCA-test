@@ -5,7 +5,9 @@ Overview
 --------
 
 대부분의 딥러닝 애플리케이션은 추론 시 32비트 부동소수점 정밀도를 사용합니다. 그러나 FP8과 같은 저정밀 데이터 타입은 뛰어난 성능 향상 효과로 인해 점점 더 주목받고 있습니다. 저정밀 방식을 채택할 때의 핵심 과제는 미리 정의된 요구사항을 충족하면서 정확도 손실을 최소화하는 것입니다.
+
 Intel® Neural Compressor는 정확도 기반 자동 튜닝 전략을 통해 PyTorch를 확장하여, 사용자가 인텔 하드웨어에서 최적의 양자화 모델을 빠르게 찾을 수 있도록 위 문제를 해결하는 것을 목표로 합니다.
+
 Intel® Neural Compressor는 `Github <https://github.com/intel/neural-compressor>`_ 에서 확인할 수 있는 오픈소스 프로젝트입니다.
 
 Features
